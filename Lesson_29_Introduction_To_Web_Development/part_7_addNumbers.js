@@ -1,0 +1,2 @@
+const addNumbers = (a, b) => a + b;
+console.log(addNumbers(5, 10)); // Output: 15
