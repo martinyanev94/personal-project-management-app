@@ -1,0 +1,10 @@
+<button id="myButton">Click me!</button>
+<p id="text">Hello!</p>
+
+<script>
+    const button = document.getElementById("myButton");
+    button.addEventListener("click", () => {
+        const text = document.getElementById("text");
+        text.innerHTML = "You clicked the button!";
+    });
+</script>
