@@ -1,0 +1,11 @@
+<button id="greetButton">Click Me!</button>
+<p id="greetingMessage"></p>
+
+<script>
+    const button = document.getElementById('greetButton');
+    const message = document.getElementById('greetingMessage');
+
+    button.addEventListener('click', () => {
+        message.textContent = 'Hello, Welcome to my website!';
+    });
+</script>
